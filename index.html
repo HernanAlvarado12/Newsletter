@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+    <head>
+        <meta charset ="UTF-8">
+        <title>Newsletter</title> 
+        <meta name ="description" content ="Clone of the page newsletter, html and css">
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+        <meta name ="robots" content ="index, follow">
+        <link rel ="stylesheet" href ="./css/mobile.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 624px)" href ="./css/table.css">
+        <link rel ="stylesheet" media ="screen and (min-width: 995px)" href ="./css/desktop.css">
+    </head>
+
+    <body>
+        <main class ="main__container">
+            <figure class ="main__figure">
+                <img class ="main__image element--absolute" src ="./assets/pattern.png" alt ="Photo of a pattern">
+                <figcaption class ="figure__title element--absolute element--color-white">Creating email templates has never been easier.</figcaption>
+            </figure>
+            <section class ="main__section">
+                <p class ="element--color-gray element--size">Receive daily emails on how to best create email templates, completely free.</p>
+                <form class ="container--flex container--margin-top-bottom">
+                    <input class ="form__input form__input-email input--border element--color-soft-gray element--size" type ="email" placeholder ="Email Address">
+                    <input class ="form__input form__input-submit input--border element--size element--color-white" type ="submit" value ="Subscribe">
+                </form>
+                <p class ="section__content element--color-soft-gray element--size element--color-white">No spam, every. Unsubscribe any time.</p>
+                <figure class ="section__figure container--flex container--margin-top-bottom">
+                    <img src ="./assets/avatar.svg" alt ="Photo of an user">
+                    <figcaption>
+                        <h2 class ="element--size">Andrew Wickins</h2>
+                        <p class ="element--size element--color-gray">Newsletter Designer</p>
+                    </figcaption>
+                </figure>
+                <p class ="element--color-gray element--size">"By far one of the best newsletter i've ever subscribe to. It is sent biweekly and i'm always looking forward to their emails."</p>
+            </section>
+        </main>
+    </body>
+
+</html>
