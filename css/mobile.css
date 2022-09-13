@@ -15,8 +15,13 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.body__container {
+    height: 100vh;
+}
+
 .main__container {
     width: 42rem;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -62,7 +67,7 @@ html {
 }
 
 .main__section {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1rem;
     text-align: center;
     background-color: white;
 }
@@ -73,7 +78,7 @@ html {
 }
 
 .element--margin-top-bottom, .container--margin-top-bottom {
-    margin: 4rem 0 3rem 0;
+    margin: 3rem 0 2rem 0;
 }
 
 .form__input-email {
