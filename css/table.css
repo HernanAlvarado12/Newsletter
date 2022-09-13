@@ -1,0 +1,40 @@
+@media (min-width: 624px){
+    .body__container {
+        height: 100vh;
+        display: grid;
+        place-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../assets/background.png');
+    }
+
+    .main__container {
+        width: 48rem;
+    }
+
+    .figure__title {
+        width: 36rem;
+        height: 12rem;
+        font-size: 3.7rem;
+        top: calc(50% - 6rem);
+        left: calc(50% - 18rem);
+    }
+
+    .main__figure {
+        height: 30rem;
+        border-radius: 2rem 2rem 0 0;
+    }   
+
+    .main__section {
+        padding: 4rem;
+        border-radius: 0 0 2rem 2rem;
+    }
+
+    .element--size {
+        font-size: 2.1rem;
+    }
+
+    .element--margin-top-bottom, .container--margin-top-bottom {
+        margin: 6rem 0 4rem 0;
+    }
+}
